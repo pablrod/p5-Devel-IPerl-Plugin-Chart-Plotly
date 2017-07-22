@@ -4,7 +4,7 @@ Devel::IPerl::Plugin::Chart::Plotly - Inline display of plotly charts in Jupyter
 
 # VERSION
 
-version 0.002
+version 0.003
 
 # SYNOPSIS
 
@@ -39,8 +39,6 @@ This method is called automatically by [Devel::IPerl](https://metacpan.org/pod/D
 ```
 IPerl->load_plugin('Chart::Plotly');
 ```
-
-# CLASS METHODS
 
 # AUTHOR
 
