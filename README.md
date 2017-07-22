@@ -4,7 +4,7 @@ Devel::IPerl::Plugin::Chart::Plotly - Inline display of plotly charts in Jupyter
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # SYNOPSIS
 
@@ -12,10 +12,18 @@ version 0.001
 # In notebook
 IPerl->load_plugin('Chart::Plotly');
 
+# Trace objects get displayed automatically
 use Chart::Plotly::Trace::Scatter;
-use Chart::Plotly::Plot;
 my $scatter_trace = Chart::Plotly::Trace::Scatter->new( x => [ 1 .. 5 ], y => [ 1 .. 5 ] );
-my $plot = Chart::Plotly::Plot->new(traces => [$scatter_trace]);
+
+# Also Plot objects
+use Chart::Plotly::Trace::Box;
+use Chart::Plotly::Plot;
+
+my $x = [ 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3 ];
+my $box1 = Chart::Plotly::Trace::Box->new( x => $x, y => [ map { rand() } ( 1 .. ( scalar(@$x) ) ) ], name => "box1" );
+my $box2 = Chart::Plotly::Trace::Box->new( x => $x, y => [ map { rand() } ( 1 .. ( scalar(@$x) ) ) ], name => "box2" );
+my $plot = Chart::Plotly::Plot->new( traces => [ $box1, $box2 ], layout => { boxmode => 'group' } );
 ```
 
 # DESCRIPTION
