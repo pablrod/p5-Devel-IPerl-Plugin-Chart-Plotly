@@ -30,6 +30,8 @@ my $plot = Chart::Plotly::Plot->new( traces => [ $box1, $box2 ], layout => { box
 
 Plugin to display automatically [Chart::Plotly](https://metacpan.org/pod/Chart::Plotly) plot objects in Jupyter notebooks using kernel [Devel::IPerl](https://metacpan.org/pod/Devel::IPerl)
 
+The example above can be viewed in [nbviewer](http://nbviewer.jupyter.org/github/pablrod/p5-Devel-IPerl-Plugin-Chart-Plotly/blob/master/examples/PlotlyPlugin.ipynb)
+
 # INSTANCE METHODS
 
 ## register
