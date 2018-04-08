@@ -53,3 +53,7 @@ This is free software, licensed under:
 ```
 The MIT (X11) License
 ```
+
+# CONTRIBUTOR
+
+Roy Storey <kiwiroy@users.noreply.github.com>
