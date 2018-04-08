@@ -4,7 +4,7 @@ Devel::IPerl::Plugin::Chart::Plotly - Inline display of plotly charts in Jupyter
 
 # VERSION
 
-version 0.004
+version 0.005
 
 # SYNOPSIS
 
