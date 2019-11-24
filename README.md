@@ -1,10 +1,10 @@
 # NAME
 
-Devel::IPerl::Plugin::Chart::Plotly - Inline display of plotly charts in Jupyter notebooks using [Devel::IPerl](https://metacpan.org/pod/Devel::IPerl) kernel
+Devel::IPerl::Plugin::Chart::Plotly - Inline display of plotly charts in Jupyter notebooks using [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl) kernel
 
 # VERSION
 
-version 0.005
+version 0.006
 
 # SYNOPSIS
 
@@ -28,7 +28,7 @@ my $plot = Chart::Plotly::Plot->new( traces => [ $box1, $box2 ], layout => { box
 
 # DESCRIPTION
 
-Plugin to display automatically [Chart::Plotly](https://metacpan.org/pod/Chart::Plotly) plot objects in Jupyter notebooks using kernel [Devel::IPerl](https://metacpan.org/pod/Devel::IPerl)
+Plugin to display automatically [Chart::Plotly](https://metacpan.org/pod/Chart%3A%3APlotly) plot objects in Jupyter notebooks using kernel [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl)
 
 The example above can be viewed in [nbviewer](http://nbviewer.jupyter.org/github/pablrod/p5-Devel-IPerl-Plugin-Chart-Plotly/blob/master/examples/PlotlyPlugin.ipynb)
 
@@ -36,7 +36,7 @@ The example above can be viewed in [nbviewer](http://nbviewer.jupyter.org/github
 
 ## register
 
-This method is called automatically by [Devel::IPerl](https://metacpan.org/pod/Devel::IPerl). You only need to load the plugin:
+This method is called automatically by [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl). You only need to load the plugin:
 
 ```
 IPerl->load_plugin('Chart::Plotly');
@@ -48,7 +48,7 @@ Pablo Rodríguez González <pablo.rodriguez.gonzalez@gmail.com>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2018 by Pablo Rodríguez González.
+This software is Copyright (c) 2019 by Pablo Rodríguez González.
 
 This is free software, licensed under:
 
