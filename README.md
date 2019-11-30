@@ -1,10 +1,6 @@
 # NAME
 
-Devel::IPerl::Plugin::Chart::Plotly - Inline display of plotly charts in Jupyter notebooks using [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl) kernel
-
-# VERSION
-
-version 0.006
+Devel::IPerl::Plugin::Chart::PlotlyPod - Inline display of plotly charts in Jupyter notebooks using [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl) kernel
 
 # SYNOPSIS
 
@@ -28,19 +24,13 @@ my $plot = Chart::Plotly::Plot->new( traces => [ $box1, $box2 ], layout => { box
 
 # DESCRIPTION
 
-Plugin to display automatically [Chart::Plotly](https://metacpan.org/pod/Chart%3A%3APlotly) plot objects in Jupyter notebooks using kernel [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl)
+Plugin to display automatically [Chart::Plotly](https://metacpan.org/pod/Chart%3A%3APlotly) plot objects in [Jupyter notebooks](https://jupyter.org/) using kernel [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl)
 
-The example above can be viewed in [nbviewer](http://nbviewer.jupyter.org/github/pablrod/p5-Devel-IPerl-Plugin-Chart-Plotly/blob/master/examples/PlotlyPlugin.ipynb)
+The example above can be viewed in [nbviewer](https://nbviewer.jupyter.org/github/pablrod/p5-Chart-Plotly/blob/master/examples/jupyter-notebooks/BasicUse.ipynb)
 
-# INSTANCE METHODS
+This plugin is now integrated with [Chart::Plotly](https://metacpan.org/pod/Chart%3A%3APlotly) and this package is just a placeholder for backwards compatibility.
 
-## register
-
-This method is called automatically by [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl). You only need to load the plugin:
-
-```
-IPerl->load_plugin('Chart::Plotly');
-```
+The repo can be found on [Chart::Plotly Github](https://github.com/pablrod/p5-Chart-Plotly)
 
 # AUTHOR
 
