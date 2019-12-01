@@ -2,6 +2,10 @@
 
 Devel::IPerl::Plugin::Chart::PlotlyPod - Inline display of plotly charts in Jupyter notebooks using [Devel::IPerl](https://metacpan.org/pod/Devel%3A%3AIPerl) kernel
 
+# VERSION
+
+version 0.007
+
 # SYNOPSIS
 
 ```perl
